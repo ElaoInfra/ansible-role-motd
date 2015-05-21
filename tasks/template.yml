@@ -1,6 +1,7 @@
 ---
 
 - name: template > Template
+  sudo: True
   template:
     src:  "{{ elao_motd_template }}"
     dest: "{{ elao_motd_file }}"
